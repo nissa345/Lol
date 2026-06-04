@@ -49,7 +49,7 @@ LMG2L["TextLabel_4"]["TextSize"] = 13;
 LMG2L["TextLabel_4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 LMG2L["TextLabel_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 LMG2L["TextLabel_4"]["Size"] = UDim2.new(0, 333, 0, 28);
-LMG2L["TextLabel_4"]["Text"] = [[Project Skidd - kin0xma]];
+LMG2L["TextLabel_4"]["Text"] = [[Project Skid - kin0xma]];
 LMG2L["TextLabel_4"]["Position"] = UDim2.new(0, 40, 0, 2);
 
 
