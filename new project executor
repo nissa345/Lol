@@ -229,7 +229,7 @@ local code = LMG2L["TextBox_b"].Text
 			local success, runtimeErr = pcall(func)
 			if not success then
 				warn("Runtime Error: " .. tostring(runtimeErr))
-			LMG2L["faleconsole_c"]["Text"] = "Error: " .. tostring(runtimeErr)
+			LMG2L["faleconsole_c"]["Text"] = "error, code invalid"
 			else
 				LMG2L["faleconsole_c"]["Text"] = "Executed successfully!"
 
