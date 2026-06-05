@@ -140,7 +140,7 @@ local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 --Properties:
 
 LOGO.Name = "LOGO"
-LOGO.Parent = game.CoreGui
+LOGO.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 LOGO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 LOGO.ResetOnSpawn = false
 
