@@ -85,7 +85,7 @@ LMG2L["mini"]["Visible"] = false;
 LMG2L["mini"]["Position"] = UDim2.new(0, 490, 0, 8);
 LMG2L["mini"].MouseButton1Click:Connect(function()
 LMG2L["page1_6"]["Visible"] = ture
-LMG2L["page2_f"]["Visible"] = true 
+LMG2L["page2_f"]["Visible"] = false 
 LMG2L["Frame2_20"]["Visible"] = true 
 LMG2L["TextButton2_5"]["Visible"] = true 
 LMG2L["mini"]["Visible"] = false
