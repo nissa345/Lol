@@ -230,13 +230,13 @@ local code = LMG2L["TextBox_b"].Text
 			if not success then
 				warn("Runtime Error: " .. tostring(runtimeErr))
 			else
-				print("Executed successfully!")
+				LMG2L["faleconsole_c"]["Text"] = [[Executed successfully!]
 			end
 		else
 			warn("Syntax Error: " .. tostring(err))
 		end
 	else
-		warn("No code to execute.")
+		LMG2L["faleconsole_c"]["Text"] = [[No code to execute.]]
 	end
 end)
 
